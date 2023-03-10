@@ -19,12 +19,24 @@ a{
 
 .menu{
     display: flex; 
-    align-items: center;
+    gap: 20px;
+    
 }
 
+.menu__block{
+    display: flex;
+    gap: 20px;
+    color: #000000;
+    
+}
 /* .header{
     display: flex;
     justify-content: space-around;
     align-items: center;
 
 } */
+
+.logo{
+    font-weight: 700;
+    font-size: 32px;
+}
