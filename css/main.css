@@ -13,19 +13,24 @@ a{
 
 .header__menu{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 40px;
 }
 
-.menu{
+.logo{
+    margin: 0 0 0 100px;
+}
+
+/* .menu{
     display: flex; 
     gap: 20px;
     
-}
+} */
 
 .menu__block{
     display: flex;
-    gap: 20px;
+    gap: 40px;
     color: #000000;
     
 }
