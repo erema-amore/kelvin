@@ -44,4 +44,125 @@ a{
 .logo{
     font-weight: 700;
     font-size: 32px;
+    line-height: 100%;
+}
+
+.section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.section__block{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section__block-text{
+    
+}
+
+.text__kelvin-kramer{
+   
+    font-weight: 600;
+    font-size: 44px;
+    color: #000000;
+    margin: 20px 0;
+    width: 482px;
+    height: 132px;
+}
+
+.text__i-m{
+    width: 500px;
+    height: 56px;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.section__block-img{
+    width: 494px;
+    height: 613px;
+}
+
+.work{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.work__main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.work__variant{
+    width: 68px;
+    height: 68px;
+    width: 330px;
+    height: 228px;
+    
+
+}
+
+.work__text-main{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.portfolio{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio__main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.portfolio__big{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 51px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.portfolio__small{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-decoration-line: underline;
+    margin: 30px 0;
+}
+
+.reebok__store{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-decoration-line: underline;
+    margin: 30px 0;
+}
+
+.braun__landing{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-decoration-line: underline;
+    margin: 30px 0;
+
 }
